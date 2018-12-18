@@ -33,6 +33,6 @@ data.each do |seasons, bio|
 end
 sum= 0.0
 array.each {|x| sum += x.to_i}
-sum = sum/ array.size
-sum.round
+average = sum/ array.size
+average.round
 end
