@@ -59,3 +59,4 @@ def get_average_age_for_season(data, season)
   average = ages.inject {|sum, element| sum + element }.to_f / ages.size
   average.round
 end
+end
